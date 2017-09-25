@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--LLBLGen Pro v5.2 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
+<Project Version="5.2" TargetFrameworkName="LLBLGen Pro Runtime Framework" UseLegacyDefaults="false">
+  <Properties>
+    <Abbreviations />
+    <Property Name="AdditionalTaskPerformerFolder" Value="" />
+    <Property Name="AdditionalTasksFolder" Value="" />
+    <Property Name="AdditionalTemplatesFolder" Value="" />
+    <Property Name="AdditionalTypeConverterFolder" Value="" />
+    <Property Name="AddNewElementsAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AddNewFieldsAfterRefresh_v5" Value="true" />
+    <Property Name="AddNewFieldsAfterRelationalModelDataSync_v5" Value="true" />
+    <Property Name="AddNewViewsAsEntitiesAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewViewsAsEntitiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AutoAddManyToManyRelationships" Value="false" />
+    <Property Name="AutoAssignSequencesToIntegerPks" Value="true" />
+    <Property Name="AutoAssignTypeConverterToFieldMapping" Value="true" />
+    <Property Name="CleanUpVsNetProjects" Value="true" />
+    <Property Name="ConnectionStringKeyNamePattern" Value="ConnectionString" />
+    <Property Name="DefaultDeleteRuleAction" Value="1" />
+    <Property Name="DefaultUpdateRuleAction" Value="0" />
+    <Property Name="EncodingToUse" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForTable" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForView" Value="4" />
+    <Property Name="EntityFieldNameStripPattern" Value="{}{}" />
+    <Property Name="EntityNameStripPattern" Value="{tbl_}{}" />
+    <Property Name="ExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="FailCodeGenerationOnWriteError" Value="false" />
+    <Property Name="FieldMappedOntoRelatedFieldPattern" Value="{$RelatedFieldName}" />
+    <Property Name="FkFieldsAreNamedAfterTargetField" Value="true" />
+    <Property Name="ForeignKeyConstraintPattern" Value="FK_{$Guid}" />
+    <Property Name="ForeignKeyFieldPattern" Value="{$NavigatorName}{$RelatedFieldName}" />
+    <Property Name="GroupUsage" Value="0" />
+    <Property Name="IdentifyingFieldsFollowDBPrimaryKeyConstraints_v5" Value="true" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseInsensitiveDBs" Value="false" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseSensitiveDBs" Value="false" />
+    <Property Name="LengthPrecisionScaleFollowDBLengthPrecisionScale_v5" Value="true" />
+    <Property Name="MakeElementNamePascalCasing" Value="false" />
+    <Property Name="NavigatorMappedOntoManyToManyPattern" Value="{$EndEntityName}CollectionVia{$IntermediateEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneManyToOnePattern" Value="{$EndEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneToManyPattern" Value="{$EndEntityName$P}" />
+    <Property Name="NonExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="PreferDecimalOverCurrencyTypes" Value="true" />
+    <Property Name="PreferNaturalCharacterTypes" Value="true" />
+    <Property Name="PreferSystemSequencesOverSchemaSequencesIfApplicable" Value="true" />
+    <Property Name="PreferVariableLengthTypes" Value="true" />
+    <Property Name="PrimaryKeyConstraintPattern" Value="PK_{$Guid}" />
+    <Property Name="ProjectCreator" Value="Allen.Zhou" />
+    <Property Name="ProjectName" Value="StateGrid4.Data" />
+    <Property Name="ReflectNullabilityOfElementFieldInTargetField_v5" Value="false" />
+    <Property Name="ReflectTypeOfElementFieldInTargetField_v5" Value="true" />
+    <Property Name="RelationalModelDataElementNameCasingCaseInsensitiveDBs" Value="3" />
+    <Property Name="RelationalModelDataElementNameCasingCaseSensitiveDBs" Value="3" />
+    <Property Name="RelationshipsFollowDBForeignKeyConstraints_v5" Value="true" />
+    <Property Name="RemoveUnderscoresFromElementName" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRefresh_v5" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRefresh" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRelationalModelDataSync" Value="false" />
+    <Property Name="RetrieveDBCustomProperties" Value="false" />
+    <Property Name="RootNamespace" Value="" />
+    <Property Name="SequenceNameMatchingPattern" Value="SEQ_{$TableName}" />
+    <Property Name="SequencePattern" Value="SEQ_{$EntityName}" />
+    <Property Name="SetGroupNameAfterSchemaName" Value="true" />
+    <Property Name="SetSchemaNameAfterGroupName" Value="true" />
+    <Property Name="SingularizeElementNames" Value="true" />
+    <Property Name="StoredProcNameStripPattern" Value="{pr_, sp_}{}" />
+    <Property Name="StoreTimeLastGeneratedIntoProject" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="SyncRelationalModelDataElementNameWithModelElementName_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="TableValuedFunctionNameStripPattern" Value="{fn_, pr_, sp_}{}" />
+    <Property Name="TargetPerEntityEdgesRequireBackingFkConstraint" Value="true" />
+    <Property Name="TypedViewFieldNameStripPattern" Value="{}{}" />
+    <Property Name="TypedViewMappedOnResultsetPattern" Value="{$ProcFunctionName}{$ResultsetName}Result" />
+    <Property Name="TypedViewNameStripPattern" Value="{vw_}{}" />
+    <Property Name="UniqueConstraintPattern" Value="UC_{$Guid}" />
+    <Property Name="UniqueConstraintsFollowDBUniqueConstraints_v5" Value="true" />
+    <Property Name="UpdateCustomPropertiesAfterRefresh_v5" Value="false" />
+    <Property Name="UpdateCustomPropertiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="UseCustomFieldOrderingOnNewElements" Value="false" />
+  </Properties>
+  <TypeShortcuts />
+  <IgnoredWarnings />
+  <SavedSearchQueries />
+  <CodeGenerationCyclePreferences>
+    <OutputType Value="3">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value=".\Data" />
+        <FrameworkName Value="LLBLGen Pro Runtime Framework" />
+        <LanguageName Value="C#" />
+        <PlatformName Value=".NET 4.0" />
+        <PresetName Value="SD.Presets.Adapter.General" />
+        <RootNamespace Value="StateGrid4.Data" />
+        <TemplateGroup Value="Adapter" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.SharedTemplates.Deprecated" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates.NET40" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates" />
+          <Binding Name="SD.TemplateBindings.SqlServerSpecific" />
+          <Binding Name="SD.TemplateBindings.General" />
+        </TemplateBindings>
+      </LastUsedPreferences>
+    </OutputType>
+  </CodeGenerationCyclePreferences>
+  <OutputSettingValues>
+    <SettingValues>
+      <SettingValue Name="1:ConvertNulledReferenceTypesToDefaultValue" Value="false" Type="3" />
+    </SettingValues>
+  </OutputSettingValues>
+  <CodeGenerationMetaDataDefaults>
+    <TargetElement Type="256">
+      <Defaults>
+        <Attributes>
+          <Attribute Value="Browsable($false)" />
+        </Attributes>
+      </Defaults>
+    </TargetElement>
+  </CodeGenerationMetaDataDefaults>
+  <EntityModel>
+    <ValueTypeDefinitions />
+    <EntityDefinitions>
+      <EntityDefinition Name="SgxcDepartment" ObjectID="f10ce58d-8d94-495c-8daf-5419ef71a823">
+        <Fields>
+          <Field Name="CreatedBy" Type="string" IsOptional="true" MaxLength="30" />
+          <Field Name="CreatedDate" Type="datetime" />
+          <Field Name="DID" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="DIsActivated" Type="string" MaxLength="1" />
+          <Field Name="DName" Type="string" MaxLength="30" />
+          <Field Name="DPID" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="UpdatedBy" Type="string" IsOptional="true" MaxLength="30" />
+          <Field Name="UpdatedDate" Type="datetime" IsOptional="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SgxcDepartmentRole" ObjectID="81b09e41-6b22-4cd0-885d-49dfff910e3b">
+        <Fields>
+          <Field Name="DID" Type="int" Precision="10" />
+          <Field Name="DRID" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="RID" Type="int" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SgxcFunction" ObjectID="97313edb-c15e-4262-907c-5b4e5d844a4d">
+        <Fields>
+          <Field Name="CreatedBy" Type="string" IsOptional="true" MaxLength="30" />
+          <Field Name="CreatedDate" Type="datetime" />
+          <Field Name="FCode" Type="string" MaxLength="30" />
+          <Field Name="FID" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="FIsActivated" Type="string" MaxLength="1" />
+          <Field Name="FName" Type="string" MaxLength="30" />
+          <Field Name="FPID" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="FUrl" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="UpdatedBy" Type="string" IsOptional="true" MaxLength="30" />
+          <Field Name="UpdatedDate" Type="datetime" IsOptional="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SgxcQualification" ObjectID="8c7aa0ee-89c9-4717-b628-8219bc5f059e">
+        <Fields>
+          <Field Name="CreatedBy" Type="string" MaxLength="512" />
+          <Field Name="CreatedDate" Type="datetime" />
+          <Field Name="QCurrentDepartment" Type="int" Precision="10" />
+          <Field Name="QDevEndTime" Type="datetime" />
+          <Field Name="QDevStartTime" Type="datetime" />
+          <Field Name="QID" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="QNewDepartment" Type="int" Precision="10" />
+          <Field Name="QReport" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="UpdatedBy" Type="string" IsOptional="true" MaxLength="512" />
+          <Field Name="UpdatedDate" Type="datetime" IsOptional="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SgxcRoleUser" ObjectID="ea1bb81a-b06f-4343-85ea-1d3fe3e2f627">
+        <Fields>
+          <Field Name="DRID" Type="int" Precision="10" />
+          <Field Name="RUID" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="UID" Type="int" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SgxcSCommonCode" ObjectID="55fffd18-b255-40c8-9580-9db4ca19c14f">
+        <Fields>
+          <Field Name="Activated" Type="bool" />
+          <Field Name="Cccode" Type="string" MaxLength="256" />
+          <Field Name="CcdisplayOrder" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Ccid" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Ccname" Type="string" MaxLength="512" />
+          <Field Name="CcnodeType" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="CcparentId" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Ccpoint" Type="decimal" IsOptional="true" Precision="18" Scale="1" />
+          <Field Name="CcrecType" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="CreatedBy" Type="string" MaxLength="512" />
+          <Field Name="CreatedDate" Type="datetime" />
+          <Field Name="Description" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="UpdatedBy" Type="string" IsOptional="true" MaxLength="512" />
+          <Field Name="UpdatedDate" Type="datetime" IsOptional="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SgxcSExpertCategory" ObjectID="c2ccd9d9-3365-4a66-92a6-f0c887ec8c0e">
+        <Fields>
+          <Field Name="CreatedBy" Type="string" IsOptional="true" MaxLength="30" />
+          <Field Name="CreatedDate" Type="datetime" />
+          <Field Name="Ecid" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="EcisActivated" Type="string" MaxLength="1" />
+          <Field Name="Ecname" Type="string" MaxLength="1" />
+          <Field Name="Ecpid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="UpdatedBy" Type="string" IsOptional="true" MaxLength="30" />
+          <Field Name="UpdatedDate" Type="datetime" IsOptional="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SgxcSPublicCode" ObjectID="19a8fbbe-bb98-445e-acf8-783158efe550">
+        <Fields>
+          <Field Name="CreatedBy" Type="string" MaxLength="512" />
+          <Field Name="CreatedDate" Type="datetime" />
+          <Field Name="IsActivated" Type="bool" />
+          <Field Name="Pccode" Type="string" MaxLength="80" />
+          <Field Name="Pcid" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Pcindex" Type="int" Precision="10" />
+          <Field Name="Pcname" Type="string" MaxLength="255" />
+          <Field Name="PcnodeType" Type="int" Precision="10" />
+          <Field Name="PcparentId" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Pcpoint" Type="decimal" IsOptional="true" Precision="18" Scale="1" />
+          <Field Name="PcrecType" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="Remarks" Type="string" IsOptional="true" MaxLength="2147483647" />
+          <Field Name="UpdatedBy" Type="string" IsOptional="true" MaxLength="512" />
+          <Field Name="UpdatedDate" Type="datetime" IsOptional="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SgxcStudentNotice" ObjectID="6ce892b1-3de3-4f65-b84a-e32e2865ee47">
+        <Fields>
+          <Field Name="FActivated" Type="bool" />
+          <Field Name="FCreatedBy" Type="string" MaxLength="80" />
+          <Field Name="FCreatedDate" Type="datetime" />
+          <Field Name="FKnowledegStatusID" Type="string" MaxLength="80" />
+          <Field Name="FMonth" Type="string" MaxLength="30" />
+          <Field Name="FUpdatedBy" Type="string" IsOptional="true" MaxLength="80" />
+          <Field Name="FUpdatedDate" Type="datetime" IsOptional="true" />
+          <Field Name="FWID" Type="long" IsReadOnly="true" Precision="19" IsPrimaryKey="true" />
+          <Field Name="FWorkContent" Type="string" MaxLength="2147483647" />
+          <Field Name="FWorkModeID" Type="string" MaxLength="80" />
+          <Field Name="FWorkName" Type="string" MaxLength="80" />
+          <Field Name="FYear" Type="string" MaxLength="30" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SgxcSUser" ObjectID="e391991f-1224-434a-85c3-e529dbf5db08">
+        <Fields>
+          <Field Name="Factivated" Type="bool" />
+          <Field Name="FcreatedBy" Type="string" MaxLength="80" />
+          <Field Name="FcreatedDate" Type="datetime" />
+          <Field Name="FexportedUser" Type="bool" />
+          <Field Name="FjoinedDate" Type="datetime" />
+          <Field Name="Fpassword" Type="string" IsOptional="true" MaxLength="80" />
+          <Field Name="FupdatedBy" Type="string" IsOptional="true" MaxLength="80" />
+          <Field Name="FupdatedDate" Type="datetime" IsOptional="true" />
+          <Field Name="FuserId" Type="long" IsReadOnly="true" Precision="19" IsPrimaryKey="true" />
+          <Field Name="FuserName" Type="string" MaxLength="80" />
+          <Field Name="FuserNo" Type="string" MaxLength="80" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SgxcSUserRole" ObjectID="d8be9266-96b8-4964-9b30-128357cb05fd">
+        <Fields>
+          <Field Name="FcreatedBy" Type="string" IsOptional="true" MaxLength="80" />
+          <Field Name="FcreatedDate" Type="datetime" IsOptional="true" />
+          <Field Name="FfunctionList" Type="string" IsOptional="true" MaxLength="1000" />
+          <Field Name="FroleId" Type="long" IsReadOnly="true" Precision="19" IsPrimaryKey="true" />
+          <Field Name="FroleName" Type="string" IsOptional="true" MaxLength="255" />
+          <Field Name="FroleNo" Type="string" IsOptional="true" MaxLength="80" />
+          <Field Name="FupdatedBy" Type="string" IsOptional="true" MaxLength="80" />
+          <Field Name="FupdatedDate" Type="datetime" IsOptional="true" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="TypeTable" ObjectID="fe8b02e6-0080-453e-9c84-8b5ac8f95773">
+        <Fields>
+          <Field Name="AddDate" Type="datetime" IsOptional="true" />
+          <Field Name="DelFlag" Type="bool" IsOptional="true" />
+          <Field Name="Id" Type="int" Precision="10" />
+          <Field Name="Key" Type="long" IsReadOnly="true" Precision="19" IsPrimaryKey="true" />
+          <Field Name="Pid" Type="int" IsOptional="true" Precision="10" />
+          <Field Name="TypeCname" Type="string" IsOptional="true" MaxLength="50" />
+          <Field Name="TypeEname" Type="string" IsOptional="true" MaxLength="50" />
+        </Fields>
+      </EntityDefinition>
+    </EntityDefinitions>
+    <Relationships />
+    <InheritanceHierarchies />
+  </EntityModel>
+  <TypedViewDefinitions>
+    <TypedViewDefinition Name="SplitStringToTableResult" ObjectID="404e59c2-b708-4a5d-8c7f-df2f4dd614eb">
+      <Fields>
+        <Field Name="FLength" Type="int" IsOptional="true" Precision="10" />
+        <Field Name="FPosition" Type="int" IsOptional="true" Precision="10" />
+        <Field Name="FSequence" Type="int" Precision="10" />
+        <Field Name="FValue" Type="string" IsOptional="true" MaxLength="511" />
+      </Fields>
+    </TypedViewDefinition>
+  </TypedViewDefinitions>
+  <TvfCallDefinitions>
+    <TvfCallDefinition Name="SplitStringToTable" ObjectID="75ac0ac9-266c-49b5-ac85-21b216105425" ReturnElement=":SplitStringToTableResult">
+      <Parameters>
+        <Parameter Name="Delimeter" Type="string" MaxLength="1" />
+        <Parameter Name="InputString" Type="string" MaxLength="8000" />
+      </Parameters>
+    </TvfCallDefinition>
+  </TvfCallDefinitions>
+  <TargetDatabases>
+    <TargetDatabase Type="2D18D138-1DD2-467E-86CC-4838250611AE" SyncSource="2">
+      <ConnectionElements>
+        <ConnectionElement Name="ServerName" Value="192.168.1.108,57164\sql2008r2" />
+        <ConnectionElement Name="CatalogName" Value="master" />
+        <ConnectionElement Name="UserID" Value="sa" />
+        <ConnectionElement Name="Password" Value="" />
+      </ConnectionElements>
+      <SystemSequences>
+        <Sequence Name="SCOPE_IDENTITY()" />
+        <Sequence Name="@@IDENTITY" />
+      </SystemSequences>
+      <Catalogs>
+        <Catalog Name="ExtMenu">
+          <Schemas>
+            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2017-09-17T07:35:31.127167Z">
+              <Tables>
+                <Table Name="SGXC_I_Qualification">
+                  <PkConstraintName Name="PK_SGXC_I_Qualification" />
+                  <Fields>
+                    <Field Name="QID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="QDevStartTime" Ordinal="2" DbType="28" />
+                    <Field Name="QDevEndTime" Ordinal="3" DbType="28" />
+                    <Field Name="QCurrentDepartment" Ordinal="4" DbType="8" Precision="10" />
+                    <Field Name="QNewDepartment" Ordinal="5" DbType="8" Precision="10" />
+                    <Field Name="QReport" Ordinal="6" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="CreatedDate" Ordinal="7" DbType="4" />
+                    <Field Name="CreatedBy" Ordinal="8" DbType="12" Length="512" />
+                    <Field Name="UpdatedDate" Ordinal="9" IsOptional="true" DbType="4" />
+                    <Field Name="UpdatedBy" Ordinal="10" IsOptional="true" DbType="12" Length="512" />
+                  </Fields>
+                </Table>
+                <Table Name="SGXC_S_CommonCode">
+                  <PkConstraintName Name="PK_SGXC_S_CommonCode" />
+                  <Fields>
+                    <Field Name="CCID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="CCParentID" Ordinal="2" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="CCCode" Ordinal="3" DbType="12" Length="256" />
+                    <Field Name="CCName" Ordinal="4" DbType="12" Length="512" />
+                    <Field Name="CCNodeType" Ordinal="5" IsOptional="true" DbType="12" Length="50" />
+                    <Field Name="CCRecType" Ordinal="6" IsOptional="true" DbType="12" Length="50" />
+                    <Field Name="CCPoint" Ordinal="7" IsOptional="true" DbType="5" Precision="18" Scale="1" />
+                    <Field Name="Description" Ordinal="8" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="CCDisplayOrder" Ordinal="9" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="Activated" Ordinal="10" DbType="2" />
+                    <Field Name="CreatedDate" Ordinal="11" DbType="4" />
+                    <Field Name="CreatedBy" Ordinal="12" DbType="12" Length="512" />
+                    <Field Name="UpdatedDate" Ordinal="13" IsOptional="true" DbType="4" />
+                    <Field Name="UpdatedBy" Ordinal="14" IsOptional="true" DbType="12" Length="512" />
+                  </Fields>
+                </Table>
+                <Table Name="SGXC_S_Department">
+                  <PkConstraintName Name="PK__SGXC_S_D__C1BEA5A22A4B4B5E" />
+                  <Fields>
+                    <Field Name="DID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="DName" Ordinal="2" DbType="12" Length="30" />
+                    <Field Name="DPID" Ordinal="3" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="DIsActivated" Ordinal="4" DbType="3" Length="1" />
+                    <Field Name="CreatedBy" Ordinal="5" IsOptional="true" DbType="12" Length="30" />
+                    <Field Name="CreatedDate" Ordinal="6" HasDefaultValue="true" DefaultValue="getdate()" DbType="4" />
+                    <Field Name="UpdatedBy" Ordinal="7" IsOptional="true" DbType="12" Length="30" />
+                    <Field Name="UpdatedDate" Ordinal="8" IsOptional="true" DbType="4" />
+                  </Fields>
+                </Table>
+                <Table Name="SGXC_S_DepartmentRole">
+                  <PkConstraintName Name="PK__SGXC_S_D__C03656302F10007B" />
+                  <Fields>
+                    <Field Name="DRID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="DID" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="RID" Ordinal="3" DbType="8" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="SGXC_S_ExpertCategory">
+                  <PkConstraintName Name="PK__SGXC_S_E__2733F9EC0EA330E9" />
+                  <Fields>
+                    <Field Name="ECID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="ECName" Ordinal="2" DbType="12" Length="30" />
+                    <Field Name="ECPID" Ordinal="3" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="ECIsActivated" Ordinal="4" DbType="3" Length="1" />
+                    <Field Name="CreatedBy" Ordinal="5" IsOptional="true" DbType="12" Length="30" />
+                    <Field Name="CreatedDate" Ordinal="6" HasDefaultValue="true" DefaultValue="getdate()" DbType="4" />
+                    <Field Name="UpdatedBy" Ordinal="7" IsOptional="true" DbType="12" Length="30" />
+                    <Field Name="UpdatedDate" Ordinal="8" IsOptional="true" DbType="4" />
+                  </Fields>
+                </Table>
+                <Table Name="SGXC_S_Function">
+                  <PkConstraintName Name="PK__SGXC_S_F__C1BEA5A225869641" />
+                  <Fields>
+                    <Field Name="FID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="FName" Ordinal="2" DbType="12" Length="30" />
+                    <Field Name="FCode" Ordinal="3" DbType="12" Length="30" />
+                    <Field Name="FUrl" Ordinal="4" IsOptional="true" DbType="12" Length="500" />
+                    <Field Name="FPID" Ordinal="5" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="FIsActivated" Ordinal="6" DbType="3" Length="1" />
+                    <Field Name="CreatedBy" Ordinal="7" IsOptional="true" DbType="12" Length="30" />
+                    <Field Name="CreatedDate" Ordinal="8" HasDefaultValue="true" DefaultValue="getdate()" DbType="4" />
+                    <Field Name="UpdatedBy" Ordinal="9" IsOptional="true" DbType="12" Length="30" />
+                    <Field Name="UpdatedDate" Ordinal="10" IsOptional="true" DbType="4" />
+                  </Fields>
+                </Table>
+                <Table Name="SGXC_S_PublicCode">
+                  <PkConstraintName Name="PK_SGXC_S_PublicCode" />
+                  <Fields>
+                    <Field Name="PCID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="PCIndex" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="PCParentID" Ordinal="3" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="PCCode" Ordinal="4" DbType="12" Length="80" />
+                    <Field Name="PCName" Ordinal="5" DbType="12" Length="255" />
+                    <Field Name="PCNodeType" Ordinal="6" DbType="8" Precision="10" />
+                    <Field Name="PCPoint" Ordinal="7" IsOptional="true" DbType="5" Precision="18" Scale="1" />
+                    <Field Name="PCRecType" Ordinal="8" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="IsActivated" Ordinal="9" DbType="2" />
+                    <Field Name="Remarks" Ordinal="10" IsOptional="true" DbType="12" Length="2147483647" />
+                    <Field Name="CreatedDate" Ordinal="11" DbType="4" />
+                    <Field Name="CreatedBy" Ordinal="12" DbType="12" Length="512" />
+                    <Field Name="UpdatedDate" Ordinal="13" IsOptional="true" DbType="4" />
+                    <Field Name="UpdatedBy" Ordinal="14" IsOptional="true" DbType="12" Length="512" />
+                  </Fields>
+                </Table>
+                <Table Name="SGXC_S_RoleUser">
+                  <PkConstraintName Name="PK__SGXC_S_R__E045B013412EB0B6" />
+                  <Fields>
+                    <Field Name="RUID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="DRID" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="UID" Ordinal="3" DbType="8" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="SGXC_S_StudentNotice">
+                  <PkConstraintName Name="PK_SGXC_S_StudentNotice" />
+                  <Fields>
+                    <Field Name="FWID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="0" Precision="19" />
+                    <Field Name="FWorkName" Ordinal="2" DbType="12" Length="80" />
+                    <Field Name="FKnowledegStatusID" Ordinal="3" DbType="12" Length="80" />
+                    <Field Name="FWorkModeID" Ordinal="4" DbType="12" Length="80" />
+                    <Field Name="FYear" Ordinal="5" DbType="12" Length="30" />
+                    <Field Name="FMonth" Ordinal="6" DbType="12" Length="30" />
+                    <Field Name="FWorkContent" Ordinal="7" DbType="12" Length="2147483647" />
+                    <Field Name="FActivated" Ordinal="8" DbType="2" />
+                    <Field Name="FCreatedDate" Ordinal="9" DbType="4" />
+                    <Field Name="FCreatedBy" Ordinal="10" DbType="12" Length="80" />
+                    <Field Name="FUpdatedDate" Ordinal="11" IsOptional="true" DbType="4" />
+                    <Field Name="FUpdatedBy" Ordinal="12" IsOptional="true" DbType="12" Length="80" />
+                  </Fields>
+                </Table>
+                <Table Name="SGXC_S_USER">
+                  <PkConstraintName Name="PK_SGXC_S_USER" />
+                  <Fields>
+                    <Field Name="FUserID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="0" Precision="19" />
+                    <Field Name="FUserNo" Ordinal="2" DbType="12" Length="80" />
+                    <Field Name="FUserName" Ordinal="3" DbType="12" Length="80" />
+                    <Field Name="FJoinedDate" Ordinal="4" DbType="4" />
+                    <Field Name="FActivated" Ordinal="5" DbType="2" />
+                    <Field Name="FPassword" Ordinal="6" IsOptional="true" DbType="12" Length="80" />
+                    <Field Name="FExportedUser" Ordinal="7" DbType="2" />
+                    <Field Name="FCreatedDate" Ordinal="8" DbType="4" />
+                    <Field Name="FCreatedBy" Ordinal="9" DbType="12" Length="80" />
+                    <Field Name="FUpdatedDate" Ordinal="10" IsOptional="true" DbType="4" />
+                    <Field Name="FUpdatedBy" Ordinal="11" IsOptional="true" DbType="12" Length="80" />
+                  </Fields>
+                </Table>
+                <Table Name="SGXC_S_UserRole">
+                  <PkConstraintName Name="PK_SGXC_S_UserRole" />
+                  <Fields>
+                    <Field Name="FRoleID" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="0" Precision="19" />
+                    <Field Name="FRoleNo" Ordinal="2" IsOptional="true" DbType="12" Length="80" />
+                    <Field Name="FRoleName" Ordinal="3" IsOptional="true" DbType="12" Length="255" />
+                    <Field Name="FFunctionList" Ordinal="4" IsOptional="true" DbType="12" Length="1000" />
+                    <Field Name="FCreatedDate" Ordinal="5" IsOptional="true" DbType="4" />
+                    <Field Name="FCreatedBy" Ordinal="6" IsOptional="true" DbType="12" Length="80" />
+                    <Field Name="FUpdatedDate" Ordinal="7" IsOptional="true" DbType="4" />
+                    <Field Name="FUpdatedBy" Ordinal="8" IsOptional="true" DbType="12" Length="80" />
+                  </Fields>
+                </Table>
+                <Table Name="TypeTable">
+                  <PkConstraintName Name="PK_TypeTable" />
+                  <Fields>
+                    <Field Name="Key" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="0" Precision="19" />
+                    <Field Name="ID" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="PID" Ordinal="3" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="TypeEName" Ordinal="4" IsOptional="true" DbType="12" Length="50" />
+                    <Field Name="TypeCName" Ordinal="5" IsOptional="true" DbType="12" Length="50" />
+                    <Field Name="DelFlag" Ordinal="6" IsOptional="true" DbType="2" />
+                    <Field Name="AddDate" Ordinal="7" IsOptional="true" DbType="4" />
+                  </Fields>
+                </Table>
+              </Tables>
+              <TableValuedFunctions>
+                <TableValuedFunction Name="fn_SplitStringToTable" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@InputString" Direction="1" Ordinal="1" DbType="24" Length="8000" />
+                    <Parameter Name="@Delimeter" Direction="1" Ordinal="2" DbType="3" Length="1" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="FSequence" Ordinal="1" DbType="8" Precision="10" />
+                        <Field Name="FValue" Ordinal="2" IsOptional="true" DbType="24" Length="511" />
+                        <Field Name="FPosition" Ordinal="3" IsOptional="true" DbType="8" Precision="10" />
+                        <Field Name="FLength" Ordinal="4" IsOptional="true" DbType="8" Precision="10" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </TableValuedFunction>
+              </TableValuedFunctions>
+            </Schema>
+          </Schemas>
+        </Catalog>
+      </Catalogs>
+    </TargetDatabase>
+  </TargetDatabases>
+  <MappingStores>
+    <MappingStore Type="2D18D138-1DD2-467E-86CC-4838250611AE">
+      <EntityMappings>
+        <EntityMapping EntityName=":SgxcDepartment" TargetName="ExtMenu:dbo:SGXC_S_Department">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedBy" TargetFieldName="CreatedBy" />
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="DID" TargetFieldName="DID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="DIsActivated" TargetFieldName="DIsActivated" />
+            <FieldMapping FieldName="DName" TargetFieldName="DName" />
+            <FieldMapping FieldName="DPID" TargetFieldName="DPID" />
+            <FieldMapping FieldName="UpdatedBy" TargetFieldName="UpdatedBy" />
+            <FieldMapping FieldName="UpdatedDate" TargetFieldName="UpdatedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":SgxcDepartmentRole" TargetName="ExtMenu:dbo:SGXC_S_DepartmentRole">
+          <FieldMappings>
+            <FieldMapping FieldName="DID" TargetFieldName="DID" />
+            <FieldMapping FieldName="DRID" TargetFieldName="DRID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="RID" TargetFieldName="RID" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":SgxcFunction" TargetName="ExtMenu:dbo:SGXC_S_Function">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedBy" TargetFieldName="CreatedBy" />
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="FCode" TargetFieldName="FCode" />
+            <FieldMapping FieldName="FID" TargetFieldName="FID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="FIsActivated" TargetFieldName="FIsActivated" />
+            <FieldMapping FieldName="FName" TargetFieldName="FName" />
+            <FieldMapping FieldName="FPID" TargetFieldName="FPID" />
+            <FieldMapping FieldName="FUrl" TargetFieldName="FUrl" />
+            <FieldMapping FieldName="UpdatedBy" TargetFieldName="UpdatedBy" />
+            <FieldMapping FieldName="UpdatedDate" TargetFieldName="UpdatedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":SgxcQualification" TargetName="ExtMenu:dbo:SGXC_I_Qualification">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedBy" TargetFieldName="CreatedBy" />
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="QCurrentDepartment" TargetFieldName="QCurrentDepartment" />
+            <FieldMapping FieldName="QDevEndTime" TargetFieldName="QDevEndTime" />
+            <FieldMapping FieldName="QDevStartTime" TargetFieldName="QDevStartTime" />
+            <FieldMapping FieldName="QID" TargetFieldName="QID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="QNewDepartment" TargetFieldName="QNewDepartment" />
+            <FieldMapping FieldName="QReport" TargetFieldName="QReport" />
+            <FieldMapping FieldName="UpdatedBy" TargetFieldName="UpdatedBy" />
+            <FieldMapping FieldName="UpdatedDate" TargetFieldName="UpdatedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":SgxcRoleUser" TargetName="ExtMenu:dbo:SGXC_S_RoleUser">
+          <FieldMappings>
+            <FieldMapping FieldName="DRID" TargetFieldName="DRID" />
+            <FieldMapping FieldName="RUID" TargetFieldName="RUID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="UID" TargetFieldName="UID" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":SgxcSCommonCode" TargetName="ExtMenu:dbo:SGXC_S_CommonCode">
+          <FieldMappings>
+            <FieldMapping FieldName="Activated" TargetFieldName="Activated" />
+            <FieldMapping FieldName="Cccode" TargetFieldName="CCCode" />
+            <FieldMapping FieldName="CcdisplayOrder" TargetFieldName="CCDisplayOrder" />
+            <FieldMapping FieldName="Ccid" TargetFieldName="CCID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Ccname" TargetFieldName="CCName" />
+            <FieldMapping FieldName="CcnodeType" TargetFieldName="CCNodeType" />
+            <FieldMapping FieldName="CcparentId" TargetFieldName="CCParentID" />
+            <FieldMapping FieldName="Ccpoint" TargetFieldName="CCPoint" />
+            <FieldMapping FieldName="CcrecType" TargetFieldName="CCRecType" />
+            <FieldMapping FieldName="CreatedBy" TargetFieldName="CreatedBy" />
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="Description" TargetFieldName="Description" />
+            <FieldMapping FieldName="UpdatedBy" TargetFieldName="UpdatedBy" />
+            <FieldMapping FieldName="UpdatedDate" TargetFieldName="UpdatedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":SgxcSExpertCategory" TargetName="ExtMenu:dbo:SGXC_S_ExpertCategory">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedBy" TargetFieldName="CreatedBy" />
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="Ecid" TargetFieldName="ECID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="EcisActivated" TargetFieldName="ECIsActivated" />
+            <FieldMapping FieldName="Ecname" TargetFieldName="ECName" />
+            <FieldMapping FieldName="Ecpid" TargetFieldName="ECPID" />
+            <FieldMapping FieldName="UpdatedBy" TargetFieldName="UpdatedBy" />
+            <FieldMapping FieldName="UpdatedDate" TargetFieldName="UpdatedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":SgxcSPublicCode" TargetName="ExtMenu:dbo:SGXC_S_PublicCode">
+          <FieldMappings>
+            <FieldMapping FieldName="CreatedBy" TargetFieldName="CreatedBy" />
+            <FieldMapping FieldName="CreatedDate" TargetFieldName="CreatedDate" />
+            <FieldMapping FieldName="IsActivated" TargetFieldName="IsActivated" />
+            <FieldMapping FieldName="Pccode" TargetFieldName="PCCode" />
+            <FieldMapping FieldName="Pcid" TargetFieldName="PCID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Pcindex" TargetFieldName="PCIndex" />
+            <FieldMapping FieldName="Pcname" TargetFieldName="PCName" />
+            <FieldMapping FieldName="PcnodeType" TargetFieldName="PCNodeType" />
+            <FieldMapping FieldName="PcparentId" TargetFieldName="PCParentID" />
+            <FieldMapping FieldName="Pcpoint" TargetFieldName="PCPoint" />
+            <FieldMapping FieldName="PcrecType" TargetFieldName="PCRecType" />
+            <FieldMapping FieldName="Remarks" TargetFieldName="Remarks" />
+            <FieldMapping FieldName="UpdatedBy" TargetFieldName="UpdatedBy" />
+            <FieldMapping FieldName="UpdatedDate" TargetFieldName="UpdatedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":SgxcStudentNotice" TargetName="ExtMenu:dbo:SGXC_S_StudentNotice">
+          <FieldMappings>
+            <FieldMapping FieldName="FActivated" TargetFieldName="FActivated" />
+            <FieldMapping FieldName="FCreatedBy" TargetFieldName="FCreatedBy" />
+            <FieldMapping FieldName="FCreatedDate" TargetFieldName="FCreatedDate" />
+            <FieldMapping FieldName="FKnowledegStatusID" TargetFieldName="FKnowledegStatusID" />
+            <FieldMapping FieldName="FMonth" TargetFieldName="FMonth" />
+            <FieldMapping FieldName="FUpdatedBy" TargetFieldName="FUpdatedBy" />
+            <FieldMapping FieldName="FUpdatedDate" TargetFieldName="FUpdatedDate" />
+            <FieldMapping FieldName="FWID" TargetFieldName="FWID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="FWorkContent" TargetFieldName="FWorkContent" />
+            <FieldMapping FieldName="FWorkModeID" TargetFieldName="FWorkModeID" />
+            <FieldMapping FieldName="FWorkName" TargetFieldName="FWorkName" />
+            <FieldMapping FieldName="FYear" TargetFieldName="FYear" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":SgxcSUser" TargetName="ExtMenu:dbo:SGXC_S_USER">
+          <FieldMappings>
+            <FieldMapping FieldName="Factivated" TargetFieldName="FActivated" />
+            <FieldMapping FieldName="FcreatedBy" TargetFieldName="FCreatedBy" />
+            <FieldMapping FieldName="FcreatedDate" TargetFieldName="FCreatedDate" />
+            <FieldMapping FieldName="FexportedUser" TargetFieldName="FExportedUser" />
+            <FieldMapping FieldName="FjoinedDate" TargetFieldName="FJoinedDate" />
+            <FieldMapping FieldName="Fpassword" TargetFieldName="FPassword" />
+            <FieldMapping FieldName="FupdatedBy" TargetFieldName="FUpdatedBy" />
+            <FieldMapping FieldName="FupdatedDate" TargetFieldName="FUpdatedDate" />
+            <FieldMapping FieldName="FuserId" TargetFieldName="FUserID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="FuserName" TargetFieldName="FUserName" />
+            <FieldMapping FieldName="FuserNo" TargetFieldName="FUserNo" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":SgxcSUserRole" TargetName="ExtMenu:dbo:SGXC_S_UserRole">
+          <FieldMappings>
+            <FieldMapping FieldName="FcreatedBy" TargetFieldName="FCreatedBy" />
+            <FieldMapping FieldName="FcreatedDate" TargetFieldName="FCreatedDate" />
+            <FieldMapping FieldName="FfunctionList" TargetFieldName="FFunctionList" />
+            <FieldMapping FieldName="FroleId" TargetFieldName="FRoleID" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="FroleName" TargetFieldName="FRoleName" />
+            <FieldMapping FieldName="FroleNo" TargetFieldName="FRoleNo" />
+            <FieldMapping FieldName="FupdatedBy" TargetFieldName="FUpdatedBy" />
+            <FieldMapping FieldName="FupdatedDate" TargetFieldName="FUpdatedDate" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":TypeTable" TargetName="ExtMenu:dbo:TypeTable">
+          <FieldMappings>
+            <FieldMapping FieldName="AddDate" TargetFieldName="AddDate" />
+            <FieldMapping FieldName="DelFlag" TargetFieldName="DelFlag" />
+            <FieldMapping FieldName="Id" TargetFieldName="ID" />
+            <FieldMapping FieldName="Key" TargetFieldName="Key" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Pid" TargetFieldName="PID" />
+            <FieldMapping FieldName="TypeCname" TargetFieldName="TypeCName" />
+            <FieldMapping FieldName="TypeEname" TargetFieldName="TypeEName" />
+          </FieldMappings>
+        </EntityMapping>
+      </EntityMappings>
+      <TypedViewMappings>
+        <TypedViewMapping TypedViewName=":SplitStringToTableResult" TargetName="ExtMenu:dbo:fn_SplitStringToTable:Resultset1" IsAutoCreated="true">
+          <FieldMappings>
+            <FieldMapping FieldName="FLength" TargetFieldName="FLength" />
+            <FieldMapping FieldName="FPosition" TargetFieldName="FPosition" />
+            <FieldMapping FieldName="FSequence" TargetFieldName="FSequence" />
+            <FieldMapping FieldName="FValue" TargetFieldName="FValue" />
+          </FieldMappings>
+        </TypedViewMapping>
+      </TypedViewMappings>
+      <SPCallMappings />
+      <TvfCallMappings>
+        <TvfCallMapping TvfCallName=":SplitStringToTable" TargetName="ExtMenu:dbo:fn_SplitStringToTable">
+          <FieldMappings>
+            <FieldMapping FieldName="Delimeter" TargetFieldName="@Delimeter" />
+            <FieldMapping FieldName="InputString" TargetFieldName="@InputString" />
+          </FieldMappings>
+        </TvfCallMapping>
+      </TvfCallMappings>
+      <TypeConversionDefinitions />
+    </MappingStore>
+  </MappingStores>
+  <ModelViews />
+</Project>
